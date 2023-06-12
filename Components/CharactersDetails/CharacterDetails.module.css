@@ -1,0 +1,64 @@
+.ricky_morty {
+    height: 86px;
+    border-bottom: 0.5px solid #11b0c8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 25px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 900;
+    color: #11b0c8;
+}
+
+.row {
+    margin-top: 34px;
+}
+
+.content {
+    margin-top: 11px;
+}
+
+.name {
+    margin-top: 24px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.content_top {
+    margin-top: 10px;
+    display: flex;
+    gap: 227px;
+    align-items: center;
+}
+
+.dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.content_bottom {
+    margin-top: 15px;
+}
+
+.other_contents {
+    margin-left: 12px;
+}
+
+.content_top_end {
+    color: #808080;
+}
+
+.filter_dead_dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+
+}
+
+.scroll_col {
+    overflow-y: scroll;
+}

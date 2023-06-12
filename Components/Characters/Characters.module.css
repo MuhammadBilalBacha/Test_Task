@@ -1,0 +1,91 @@
+.ricky_morty {
+    height: 86px;
+    border-bottom: 0.5px solid #11b0c8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 25px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 900;
+    color: #11b0c8;
+}
+
+.location_data {
+    margin-top: 35px;
+}
+
+.location_filter_buttons {
+    margin-top: 8px;
+    display: flex;
+    gap: 10px;
+}
+
+.location_filter_buttons button {
+    width: 108px;
+    height: 36px;
+    display: flex;
+    padding-left: 9px;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.filter_dead {
+    border: 1px solid #bd1010;
+}
+
+.filter_dead:hover {
+    background-color: #f1cccc;
+}
+
+.filter_dead_dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+
+}
+
+.filter_alive {
+    border: 1px solid #98cd4d;
+}
+
+.filter_alive:hover {
+    background-color: #eaf5db;
+}
+
+.filter_unknown {
+    /* padding-right: 20px; */
+    border: 1px solid #b8b8b8;
+}
+
+.filter_unknown:hover {
+    background-color: #f1f1f1;
+}
+
+.data_row {
+    margin-top: 33px;
+}
+
+.card_content {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content_heading {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.content_body {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 11px;
+    font-weight: 600;
+}
